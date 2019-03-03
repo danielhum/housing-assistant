@@ -19,7 +19,7 @@ development:
   database: housing-assistant_development
   pool:     5
   username: housing-assistant
-  password:
+  password: secret
   template: template0
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -47,15 +47,5 @@ test:
   database: housing-assistant_test
   pool:     5
   username: housing-assistant
-  password:
-  template: template0
-
-production:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
-  database: housing-assistant_production
-  pool:     5
-  username: housing-assistant
-  password:
+  password: secret
   template: template0
