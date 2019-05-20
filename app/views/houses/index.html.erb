@@ -1,0 +1,6 @@
+<h1>House#index</h1>
+<ol>
+<% @houses.each do |house| %>
+    <li><%= link_to house.street, house.url %></li>
+<% end %>
+</ol>
